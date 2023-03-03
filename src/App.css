@@ -1,0 +1,144 @@
+/* () - fix the image size!! */
+
+.IGNORE 
+.order-item img {
+  width: 5em; /* fixed width image relative to text size */
+  height: 5em; /* fixed height image relative to text size */
+  object-fit: contain; /* keep original image aspect ratio keeping image intact*/
+}
+
+/* () - choose a font */
+.IGNORE 
+.app {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* () - limit page width */
+
+.IGNORE 
+.app {
+  max-width: 600px;
+  margin: 0 auto; /* center horizontally */
+}
+
+/* () - surface effect for main content */
+
+.IGNORE 
+main {
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* cute */
+  border-radius: 0.4em; /* cute */
+  padding: 1em; /* space inside edge of surface */
+}
+
+.IGNORE 
+body {
+  background-color: #f0f0f0; /* contrast for the white */
+}
+
+.IGNORE 
+body {
+  margin: 0; /* extend to browser edge */
+}
+
+/* @media screen and (max-width: 600px) {
+  main {
+    box-shadow: none;
+    border-radius: 0;
+  }
+} */
+
+
+
+/* () - top bar */
+
+.IGNORE 
+nav {
+  background-color: #D0F0C0; /* cute */
+}
+
+.IGNORE 
+nav {
+  display: flex;
+  flex-direction: row; /* horizontal */
+  align-items: center; /* disregard unequal vertical margins on children */
+  justify-content: space-between; /* move to edges */
+}
+
+.IGNORE
+label {
+  margin: 0.5em; /* space between label and input */
+}
+
+.IGNORE
+nav {
+  padding: 0 1em; /* space inside edge of top bar */
+}
+
+.IGNORE
+nav {
+  margin: 0 auto 1em auto; /* center horizontally, distance to main content */
+}
+
+/* () - page: title, content, note, action, navigation */
+
+.IGNORE 
+main {
+  display: flex;
+  flex-direction: column; /* each below the other */
+}
+
+/* () - page title */
+
+.IGNORE
+main h2 {
+  text-align: center; /* cute */
+}
+
+/* () - page content */
+
+.IGNORE
+.numeric {
+  text-align: right; /* alignment */
+}
+
+/* () - page note */
+
+.IGNORE
+p.note {
+  font-style: italic; /* cute */
+  font-size: 0.8em; /* cute */
+  text-align: right; /* cute */
+}
+
+/* () - actions */
+
+.IGNORE
+.basket-actions {
+  display: flex;
+  flex-direction: row; /* horizontal */
+  justify-content: end; /* fill from the end */
+}
+
+/* () - navigation */
+
+.IGNORE
+.checkout-navigation button {
+  padding: 0.5em 1em; /* larger button */
+}
+
+.IGNORE
+.checkout-navigation {
+  margin: 1em 0; /* space above and below */
+  display: flex;
+  flex-direction: row; /* horizontal */
+  justify-content: space-between; /* distribute */
+}
+
+.IGNORE
+.checkout-navigation button.forward {
+  background-color: green;
+  border: none;
+  border-radius: 0.5em;
+  color: white;
+}
