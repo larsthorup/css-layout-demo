@@ -1,4 +1,4 @@
-/* () - fix the image size!! */
+/* (1) - fix the image size!! */
 
 .IGNORE 
 .order-item img {
@@ -7,13 +7,13 @@
   object-fit: contain; /* keep original image aspect ratio keeping image intact*/
 }
 
-/* () - choose a font */
+/* (2) - choose a font */
 .IGNORE 
 .app {
   font-family: 'Roboto', sans-serif;
 }
 
-/* () - limit page width */
+/* (3) - limit page width */
 
 .IGNORE 
 .app {
@@ -21,7 +21,7 @@
   margin: 0 auto; /* center horizontally */
 }
 
-/* () - surface effect for main content */
+/* (4) - surface effect for main content */
 
 .IGNORE 
 main {
@@ -50,7 +50,7 @@ body {
 
 
 
-/* () - top bar */
+/* (5) - top bar */
 
 .IGNORE 
 nav {
@@ -80,7 +80,7 @@ nav {
   margin: 0 auto 1em auto; /* center horizontally, distance to main content */
 }
 
-/* () - page: title, content, note, action, navigation */
+/* (6) - page: title, content, note, action, navigation */
 
 .IGNORE 
 main {
@@ -88,21 +88,21 @@ main {
   flex-direction: column; /* each below the other */
 }
 
-/* () - page title */
+/* (7) - page title */
 
 .IGNORE
 main h2 {
   text-align: center; /* cute */
 }
 
-/* () - page content */
+/* (8) - page content */
 
 .IGNORE
 .numeric {
   text-align: right; /* alignment */
 }
 
-/* () - page note */
+/* (9) - page note */
 
 .IGNORE
 p.note {
@@ -111,7 +111,7 @@ p.note {
   text-align: right; /* cute */
 }
 
-/* () - actions */
+/* (10) - actions */
 
 .IGNORE
 .basket-actions {
@@ -120,7 +120,7 @@ p.note {
   justify-content: end; /* fill from the end */
 }
 
-/* () - navigation */
+/* (11) - navigation */
 
 .IGNORE
 .checkout-navigation button {
