@@ -142,3 +142,8 @@ p.note {
   border-radius: 0.5em;
   color: white;
 }
+
+.IGNORE 
+* {
+  outline: 1px solid red;
+}
