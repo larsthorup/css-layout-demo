@@ -21,6 +21,14 @@
   margin: 0 auto; /* center horizontally */
 }
 
+/* color palette */
+body {
+  --outside-color: #f0f0f0;
+  --background-color: white;
+  --brand-color: #D0F0C0;
+  --primary-color: green;
+}
+
 /* (4) - surface effect for main content */
 
 .IGNORE 
