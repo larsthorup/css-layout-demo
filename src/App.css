@@ -33,7 +33,7 @@ body {
 
 .IGNORE 
 main {
-  background-color: white;
+  background-color: var(--background-color);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* cute */
   border-radius: 0.4em; /* cute */
   padding: 1em; /* space inside edge of surface */
@@ -41,7 +41,7 @@ main {
 
 .IGNORE 
 body {
-  background-color: #f0f0f0; /* contrast for the white */
+  background-color: var(--outside-color); /* contrast for the white */
 }
 
 .IGNORE 
@@ -62,7 +62,7 @@ body {
 
 .IGNORE 
 nav {
-  background-color: #D0F0C0; /* cute */
+  background-color: var(--brand-color); /* cute */
 }
 
 .IGNORE 
@@ -119,6 +119,11 @@ p.note {
   text-align: right; /* cute */
 }
 
+.IGNORE
+td {
+  padding: 0.5em; /* space between cells */
+}
+
 /* (10) - actions */
 
 .IGNORE
@@ -145,10 +150,16 @@ p.note {
 
 .IGNORE
 .checkout-navigation button.forward {
-  background-color: green;
+  background-color: var(--primary-color);
   border: none;
   border-radius: 0.5em;
-  color: white;
+  color: var(--background-color);
+  transition: transform 0.2s ease-in;
+}
+
+.IGNORE
+.checkout-navigation button.forward:hover {
+  transform: scale(1.1);
 }
 
 .IGNORE 
