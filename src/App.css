@@ -73,6 +73,8 @@ nav {
   justify-content: space-between; /* move to edges */
 }
 
+/* add div around user selector: makes it a single item */
+
 .IGNORE
 label {
   margin: 0.5em; /* space between label and input */
@@ -85,7 +87,7 @@ nav {
 
 .IGNORE
 nav {
-  margin: 0 auto 1em auto; /* center horizontally, distance to main content */
+  margin: 0 auto 1em auto; /* distance to main content */
 }
 
 /* (6) - page: title, content, note, action, navigation */
@@ -95,6 +97,8 @@ main {
   display: flex;
   flex-direction: column; /* each below the other */
 }
+
+/* add div around button groups: makes each a single item */
 
 /* (7) - page title */
 

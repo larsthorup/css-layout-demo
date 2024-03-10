@@ -68,7 +68,7 @@ function App() {
             <tr className="order-item">
               <td className="order-item-prop image">
                 <img
-                  src="https://www.fotoagent.dk/single_picture/11731/138/mega/1354824_1.jpg"
+                  src="https://www.dankaf.dk/Admin/Public/GetImage.ashx?width=800&height=800&crop=5&FillCanvas=True&DoNotUpscale=true&Compression=75&image=/Files/Images/Dankaf/Produkter/4025.png"
                   alt="image of Rørsukker, 1000g"
                 />
               </td>
@@ -101,8 +101,8 @@ function App() {
           </tbody>
         </table>
         <p className="note">
-          Note: you can save 10% on your order if the total amount exceeds
-          500,00&nbsp;kr.
+          Please note: you can save 10% on your order if the total amount is
+          more than 500,00&nbsp;kr.
         </p>
         {/* <div className="basket-actions"> */}
         <button>Let me adjust my order...</button>
